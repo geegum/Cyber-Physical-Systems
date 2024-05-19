@@ -1,0 +1,561 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686155032857013, "dur": 2581074, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155032857650, "dur": 12068, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155032869721, "dur": 123178, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155032992903, "dur": 1556918, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155034549825, "dur": 887016, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155035436844, "dur": 1242, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155035441486, "dur": 39, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686155033584213, "dur": 927263, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686155033586270, "dur": 111074, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686155034468668, "dur": 16061, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686155034484739, "dur": 26715, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686155034486267, "dur": 20734, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686155034521741, "dur": 2469, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686155034520297, "dur": 3956, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155035442049, "dur": 5798, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686155034689155, "dur":8072, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155034697245, "dur":374, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686155034697739, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686155034697792, "dur":5927, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686155034704359, "dur":3399, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155034707759, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358627, "dur":264, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358891, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358906, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358910, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358916, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358918, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358927, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358929, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358935, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358937, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358944, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358946, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358952, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358954, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358963, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358965, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358973, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035358995, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035359038, "dur":8502, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686155034700693, "dur":7084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034707783, "dur":31401, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034739231, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686155034739245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034743593, "dur":2207, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686155034745810, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686155034746035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034746668, "dur":9719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686155034756390, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686155034756782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034756797, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686155034764862, "dur":4373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034769241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034769774, "dur":11399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034781408, "dur":2659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034784078, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034784336, "dur":14001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034798512, "dur":1792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034800311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034800325, "dur":9801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034810310, "dur":1340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034811656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034811666, "dur":15712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034827567, "dur":2001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034829574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034829639, "dur":8382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034838348, "dur":3560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034841928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034841995, "dur":28828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034870979, "dur":4547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034875535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034875548, "dur":50452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034933742, "dur":2223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034935974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034935990, "dur":19362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034955615, "dur":1928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034957551, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034957575, "dur":12260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034970018, "dur":1801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034971828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155034971841, "dur":22761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155034994759, "dur":5745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035000512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035000527, "dur":29692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035030353, "dur":11022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035041381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035041394, "dur":11156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035052721, "dur":1683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035054409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035054419, "dur":15234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035069800, "dur":1183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035070988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035070999, "dur":7090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035078257, "dur":1639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035079906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035079923, "dur":10081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035090185, "dur":1985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035092177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035092188, "dur":19222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035111649, "dur":4319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035115975, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035115993, "dur":11317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035127480, "dur":7122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035134630, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035134701, "dur":88843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686155035224273, "dur":10338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686155035234618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686155035234632, "dur":5823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686155035240597, "dur":118031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034700808, "dur":6990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034707799, "dur":31659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034739460, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686155034739942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034749600, "dur":5857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686155034755632, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686155034756106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034756348, "dur":7072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686155034763571, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686155034764261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034764272, "dur":5820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686155034770537, "dur":1780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1686155034772330, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034773620, "dur":24921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1686155034798722, "dur":1717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034800445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034800458, "dur":9407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034810009, "dur":1496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034811515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034811532, "dur":8033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034819764, "dur":1428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034821200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034821218, "dur":20007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034841381, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034842574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034842584, "dur":17433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034860190, "dur":9482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034869678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034869689, "dur":8979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034878829, "dur":2330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034881174, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034881202, "dur":12237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034893647, "dur":1756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034895415, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034895439, "dur":10608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034906248, "dur":21043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034927304, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034927405, "dur":11103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034938745, "dur":4962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034943714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034943725, "dur":16654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034960539, "dur":5685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034966230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034966244, "dur":17865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034984302, "dur":3096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155034987407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155034990604, "dur":12320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035003602, "dur":4527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035008135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035008147, "dur":11624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035019940, "dur":1553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035021505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035021523, "dur":8685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035030701, "dur":3682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035034461, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035034474, "dur":8775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035043478, "dur":5569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035049053, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035049070, "dur":12294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035061517, "dur":1366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035062890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035062903, "dur":14967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035078056, "dur":13611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035091675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035091689, "dur":26575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035118524, "dur":2573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035121102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035121113, "dur":23705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035145113, "dur":1770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035146894, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035146918, "dur":9748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035156814, "dur":2037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035158857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035158877, "dur":10783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035169783, "dur":1617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035171406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035171420, "dur":9066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686155035180621, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686155035180767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035180780, "dur":42590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686155035223543, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686155035223727, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686155035223752, "dur":5861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686155035229794, "dur":128835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034700924, "dur":6890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034707814, "dur":31382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034739230, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686155034739787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034747127, "dur":8095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686155034755481, "dur":1506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686155034756992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034757006, "dur":4730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686155034761912, "dur":1279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686155034763196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034763392, "dur":5408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686155034768945, "dur":4411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686155034773361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034773370, "dur":31031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686155034804545, "dur":1578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034806130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034806196, "dur":7915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034814309, "dur":1368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034815685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034815703, "dur":11362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034827227, "dur":1858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034829095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034829109, "dur":8324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034837627, "dur":1506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034839139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034839152, "dur":25455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034864762, "dur":4789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034869558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034869630, "dur":17637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034887915, "dur":16610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034904535, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034904553, "dur":11163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034915898, "dur":7055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034922968, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034922995, "dur":18921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034942104, "dur":1519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034943631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034943649, "dur":8742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034952538, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034953879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034953895, "dur":11377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034965456, "dur":4640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034970103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034970117, "dur":20600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034990891, "dur":1910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155034992810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155034992827, "dur":12927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035005936, "dur":1582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035007526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035007542, "dur":9952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035017707, "dur":4085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035021798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035021813, "dur":14655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035036796, "dur":2089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035038893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035038912, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035046204, "dur":3700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035049909, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035049924, "dur":12013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035062089, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035063242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035063255, "dur":8197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035071592, "dur":3603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035075201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035075272, "dur":12222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035087694, "dur":1850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035089551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035089566, "dur":23566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035113297, "dur":1894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035115203, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035115227, "dur":12374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035127763, "dur":2784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035130557, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035130573, "dur":11446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035142253, "dur":2484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035144746, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035144767, "dur":30913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686155035175828, "dur":1113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1686155035176946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035177850, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1686155035185765, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686155035185933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035185944, "dur":9473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686155035195580, "dur":4207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686155035199798, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686155035199826, "dur":33795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686155035233803, "dur":124787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034701029, "dur":6800, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034707830, "dur":31364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034739230, "dur":1961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686155034741198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034758497, "dur":4747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686155034763426, "dur":2112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686155034765544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034765556, "dur":5233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686155034772433, "dur":19286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034791728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034791748, "dur":11303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034803223, "dur":1684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034804913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034804924, "dur":15128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034820300, "dur":1500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034821807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034821823, "dur":15884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034837864, "dur":3458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034841328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034841343, "dur":65630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034907151, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034909159, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034909187, "dur":32029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034941412, "dur":5738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034947175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034947189, "dur":13766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034961125, "dur":1796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034962931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034962947, "dur":30428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034993539, "dur":2598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155034996149, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155034996168, "dur":10352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035006686, "dur":1506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035008198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035008209, "dur":9109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035017545, "dur":13163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035030714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035030728, "dur":27387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035058252, "dur":1256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035059514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035059526, "dur":10797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035070480, "dur":5308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035075794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035075806, "dur":21988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035098089, "dur":4241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035102341, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035102362, "dur":10759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035113293, "dur":7097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035120398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035120413, "dur":23269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035144077, "dur":3259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035147400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035147414, "dur":10656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035158229, "dur":13700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035171934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686155035171945, "dur":95133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686155035267235, "dur":91392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034701743, "dur":6100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034707844, "dur":31347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034739231, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686155034739813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034748097, "dur":7536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686155034755830, "dur":1413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686155034757249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034757262, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686155034762615, "dur":1033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686155034763654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034763667, "dur":5048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686155034768860, "dur":6529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686155034775395, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034775407, "dur":14336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686155034789932, "dur":5327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034795269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034795285, "dur":9240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034804673, "dur":1682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034806361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034806371, "dur":8459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034815068, "dur":1531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034816606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034816620, "dur":24761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034842521, "dur":9445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034851985, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034852016, "dur":12823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034865074, "dur":3293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034868376, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034868397, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034875978, "dur":11088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034887113, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034887164, "dur":13018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034900503, "dur":1678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034902191, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034902217, "dur":25610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034928209, "dur":1666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034929893, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034929921, "dur":15080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034945192, "dur":1962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034947161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034947177, "dur":9253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034956599, "dur":13802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034970407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034970419, "dur":20200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034990797, "dur":3831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155034994707, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155034994724, "dur":14313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035009318, "dur":2159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035011486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035011503, "dur":10960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035022715, "dur":1267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035023988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035023998, "dur":14965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035039097, "dur":1248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035040351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035040364, "dur":7032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035047664, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035049169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035049180, "dur":8049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035057372, "dur":1757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035059136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035059151, "dur":9353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035068660, "dur":1186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035069852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035069865, "dur":10939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035081390, "dur":2173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035083574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035083591, "dur":7034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035090772, "dur":3567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035094350, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035094373, "dur":36315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035130877, "dur":4264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035135147, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035135161, "dur":43298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686155035178634, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1686155035178789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035178969, "dur":13963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1686155035193122, "dur":4566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1686155035197694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035197706, "dur":18890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1686155035217503, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686155035217780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686155035217798, "dur":9007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686155035227145, "dur":131451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034702470, "dur":5385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034707855, "dur":31757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034739612, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686155034740025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034752798, "dur":5946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686155034759005, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686155034759419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034761419, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686155034766056, "dur":76145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034842206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034843058, "dur":114824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034958066, "dur":10669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034968745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034968761, "dur":9992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034978927, "dur":1475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034980411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034980428, "dur":10200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034990803, "dur":2199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155034993009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155034993023, "dur":15630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035008834, "dur":1718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035010559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035010610, "dur":11740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035022505, "dur":1285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035023797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035023809, "dur":8047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035032012, "dur":2224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035034249, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035034281, "dur":14226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035048689, "dur":4882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035053577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035053593, "dur":7983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035061720, "dur":2180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035063908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035063919, "dur":7405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035071508, "dur":2270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035073785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035073800, "dur":7413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035081356, "dur":9994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035091356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035091368, "dur":61794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035153405, "dur":6560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035159971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035159983, "dur":15287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035175418, "dur":1140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035176563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035176575, "dur":29863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686155035206774, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1686155035206980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686155035207003, "dur":26612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1686155035233812, "dur":124782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686155034703138, "dur":4729, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686155034707867, "dur":31322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686155034739231, "dur":1898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1686155034741136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686155034756119, "dur":5818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1686155034762131, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686155034763451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686155034763463, "dur":4997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686155034768635, "dur":103685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686155034872326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686155034872337, "dur":486060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686155035358549, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1686155035358555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034703827, "dur":4051, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034707878, "dur":31503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034739383, "dur":1926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686155034741316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034760530, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686155034764821, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1686155034765102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034765167, "dur":8926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1686155034774648, "dur":1895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034776550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034777435, "dur":12566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034790173, "dur":1723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034791903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034791916, "dur":9741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034802656, "dur":1981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034804644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034804659, "dur":19368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034824237, "dur":2855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034827098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034827112, "dur":8299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034835560, "dur":1463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034837031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034837045, "dur":10014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034847883, "dur":8191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034856089, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034856675, "dur":33136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034890020, "dur":15717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034905748, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034905767, "dur":49547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034955476, "dur":10405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034965888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034965903, "dur":9807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034975843, "dur":1282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034977131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034977147, "dur":13492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034990821, "dur":2253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155034993080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155034993091, "dur":16959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035010191, "dur":2101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035012300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035012314, "dur":17981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035030446, "dur":9970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035040421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035040432, "dur":12084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035052694, "dur":1701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035054401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035054415, "dur":14998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035069547, "dur":1044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035070596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035070605, "dur":23399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035094176, "dur":15489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035109677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035109693, "dur":15180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035125109, "dur":7127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035132242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035132256, "dur":64314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686155035196765, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686155035196929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035196944, "dur":6142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686155035203364, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686155035203532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035203551, "dur":13545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686155035217366, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1686155035217778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686155035217798, "dur":11752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C://2023_1_/_ic_pbl_2/GettingStartedWithIK_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1686155035229741, "dur":128851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686155035378075, "dur":6143, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686155035448211, "dur": 8091, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686155035441447, "dur": 14996, "ph": "X", "name": "Write chrome-trace events", "args": {} },
